@@ -1,12 +1,12 @@
-# MiniBattleship
+# Battleship
 
-Este repositorio incluye la resolución en Python de varios apartados del juego "Battleship". Tan sólo se incluyen ciertas funciones, por lo tanto no es una resolución completa del juego, de ahí el nombre "Mini". El juego completo ha sido incluido en un repositorio con nombre "Battleship".
+Este repositorio incluye la resolución completa en Python del juego "Battleship". Se hace uso de la librería Numpy.
 
 ### Instrucciones de instalación:
 
 - Clonar el repositorio:
 
-  - `git clone https://github.com/JonPiniesEcheguren/MiniBattleship.git` 
+  - `git clone https://github.com/JonPiniesEcheguren/Battleship.git` 
 
 - Crear y activar el entorno virtual:
 
@@ -36,11 +36,10 @@ Este repositorio incluye la resolución en Python de varios apartados del juego 
 
 # Contenido del repositorio
 
-El repositorio consta de 2 archivos .py:
+El repositorio consta de 3 archivos .py (además del enunciado, requirements y otros):
 
 - main.py
 
 - functions.py
 
-  
-"# Battleship" 
+- variables.py
