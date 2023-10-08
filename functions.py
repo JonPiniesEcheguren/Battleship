@@ -260,11 +260,17 @@ def Disparos(tablero_mostrado, tablero_oculto, tablero_usuario):
     while "O" in tablero_usuario and "O" in tablero_oculto:
         acierto = True
         while acierto:
+            if "O" not in tablero_oculto:
+                break
             print(f"Tablero de tu oponente\n{tablero_mostrado}")
             tablero_mostrado, tablero_oculto, acierto = Disparar_usuario(tablero_mostrado, tablero_oculto)
             print(f"Tablero de tu oponente\n{tablero_mostrado}")
         acierto = True
+        if "O" not in tablero_oculto:
+            acierto = False
         while acierto:
+            if "O" not in tablero_usuario:
+                break
             tablero_usuario, acierto = Disparar_aleatorio(tablero_usuario)
             print(f"Tablero propio\n{tablero_usuario}")
     if "O" not in tablero_usuario:
